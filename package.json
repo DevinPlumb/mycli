@@ -1,0 +1,22 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "Practice making a CLI",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "bin": {
+    "mycli": "./bin/index.js"
+  },
+  "author": "Devin Plumb",
+  "license": "ISC",
+  "dependencies": {
+    "@types/yargs": "^17.0.22",
+    "@vitalets/google-translate-api": "^9.1.0",
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0",
+    "yargs": "^17.7.1"
+  },
+  "type": "module"
+}
